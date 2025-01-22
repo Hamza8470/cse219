@@ -1,0 +1,30 @@
+/* types of selectors*/
+/* universal selector*/
+*{
+    background-color: antiquewhite;
+}
+/* element selector*/
+h1{
+    color:blueviolet;
+}
+/*class selector*/
+.heading2{
+    color:brown;
+}
+/*id selector*/
+#heading3{
+    color: black;
+}
+/*group selector*/
+a,p{
+    color: blue;
+}
+/*attribute selector*/
+input[type="text"]{
+    border: 1px solid green;
+    padding: 5px;
+}
+/*pseudo selector*/
+a:hover{
+    color: black;
+}

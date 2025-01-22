@@ -1,0 +1,37 @@
+body{
+    background-color: beige;
+}
+.table-container{
+    max-width: 600px;
+    background-color: aqua;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: yellow;
+    color: black;
+}
+th, td{
+    padding: 10px;
+    text-align: center;
+    font-size: large;
+    border: 2px solid blue;
+}
+tr:hover{
+    background-color: grey;
+}
+td:hover{
+    background-color: grey;
+}
+th{
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    
+}
+tfoot{
+    background-color: black;
+    color: white;
+}
